@@ -94,8 +94,11 @@ body, .app {
   width: 100%;
   padding: 15px 10px;
   font-size: 1.25em;
-  border: none;
-  outline: none;
+  border:#2e7d32;
+  outline:#4ea852;
+  background-color: rgb(0, 102, 0);
+  color: white;
+  lighting-color: white;
 }
 
 .close-search {
@@ -108,14 +111,27 @@ body, .app {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 28px;
+  background-color: rgb(0, 102, 0);
   font-size: 0;
   border: none;
   outline: none;
+
 }
 
 button:active {
   border: red;
   outline: none;
+}
+
+.search-button {
+  /* display: block; */
+  width: 30%;
+  height: 50px;
+  /* border-radius: 10px; */
+  background-color: rgb(0, 102, 0);
+  color: white;
+  font-size: 25;
+  /* outline: 1; */
 }
 
 .search-books-results {

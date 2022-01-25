@@ -1,14 +1,15 @@
 # MyReads Project
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+This is the My Reads app for the final assessment project for Udacity's React Fundamentals course. 
+Its a project to track your books as currently reading, want to read or read already!
+You can search about a book and add them to your list.
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
-
-## TL;DR
-
-To get started developing right away:
+## Installation
 
 * install all project dependencies with `npm install`
+
+## Usage 
+
 * start the development server with `npm start`
 
 ## What You're Getting
@@ -25,6 +26,11 @@ To get started developing right away:
     ├── App.js # This is the root of your app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
+    ├── components # directory for components.
+        ├── book_shelf.js # a shelf component.
+        ├── book.js # a book component.
+        ├── list_books.js # the dashboard od the books.
+        ├── search_books.js # searching page.
     ├── icons # Helpful images for your app. Use at your discretion.
     │   ├── add.svg
     │   ├── arrow-back.svg
@@ -33,7 +39,6 @@ To get started developing right away:
     └── index.js # You should not need to modify this file. It is used for DOM rendering only.
 ```
 
-Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
 ## Backend Server
 
